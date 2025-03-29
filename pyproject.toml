@@ -24,7 +24,8 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = []
+dependencies = [
+]
 
 [project.scripts]
 ethereum-mcp = "ethereum_mcp.cli:main"

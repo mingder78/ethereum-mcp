@@ -26,6 +26,9 @@ classifiers = [
 ]
 dependencies = []
 
+[project.scripts]
+ethereum-mcp = "ethereum_mcp.cli:main"
+
 [project.urls]
 Documentation = "https://github.com/ming-der wang/ethereum-mcp#readme"
 Issues = "https://github.com/ming-der wang/ethereum-mcp/issues"
